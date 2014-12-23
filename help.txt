@@ -1,0 +1,51 @@
+/* Brayden Cowell
+   Student Id: 0844864
+   Date: Sept. 21st, 2014
+   Assignment 2 - Data Structures
+*/
+
+-----------------------README---------------------------------
+*--- Makefile ---*
+Instructions:
+To compile type: make
+
+
+--------------------------Q1 - Rental Car Company-------------------------------------
+Run makefile to compile first
+To start code with inital disk file - type: ./q1 cars.txt
+After the first run through to restore the lists - type: ./q1 disk.txt
+
+---------Known Bugs -------------
+Transaction 4 - The remove from repair list function doesn't works properly with the last element of the repairList.
+i.e, it will remove the element from the repair list but not add it to the available list.
+
+Saving to the new disk.txt will not save transaction codes or return dates
+
+-------------------------------
+
+Example Inital file is structured like:
+[License Plate]  [Mileage in km] [transaction code a = available \ f = fixing \ r = rented] [Expected Return Date in YYMMDD]
+abdc-321 23000 a 0
+ijqd-827 8713 r 141213
+lkhg-543 1000 f 0
+
+-------------------------Q2 - Postfix Calculator--------------------------------------
+Run makefile
+Takes an expression as a command line argument (No spaces)
+Example ./q2 12+53-*
+Answer is in float and to two decimal places
+Will result in 6.00
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------
